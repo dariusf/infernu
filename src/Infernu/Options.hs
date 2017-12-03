@@ -5,6 +5,7 @@ module Infernu.Options
 import           Infernu.Prelude
 
 import Options.Applicative
+import Data.Semigroup
 
 data Options = Options
                { optQuiet :: Bool

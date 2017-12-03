@@ -7,6 +7,7 @@
 {-# LANGUAGE FlexibleInstances    #-}
 {-# LANGUAGE InstanceSigs         #-}
 {-# LANGUAGE TupleSections        #-}
+{-# LANGUAGE ConstrainedClassMethods #-}
 
 module Infernu.Types
        ( TVarName(..)
